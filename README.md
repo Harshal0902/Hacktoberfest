@@ -80,7 +80,7 @@ Open source is changing the world – one contribution at a time. Hacktoberfest 
 
 ### Python-Django
 
-- Blog App
+- <del>Blog App</del>
 - To-Do App
 - Login System
 - Portfolio
