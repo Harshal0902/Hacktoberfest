@@ -4,7 +4,8 @@
 - Make sure your system has Python installed.
 - clone this repository
 - cd Django/blog
-- ```python manage.py makemigrations
+- ```
+    python manage.py makemigrations
     python manage.py migrate
     python manage.py runserver
     ```
