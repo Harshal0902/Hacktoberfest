@@ -2,4 +2,4 @@
 <hr>
 <br>
 This file uses the basic of countours to find a specific shade in this case <br>
-<img src="/Airpen.jpg" width="100%" />
+<img src="Airpen.jpg" width="100%" />
