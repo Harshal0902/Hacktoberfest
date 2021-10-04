@@ -45,7 +45,7 @@ main form{
     flex-direction: column;
 }
 
-#user-guess{
+#user-input{
     margin: 1rem;
     padding: .5rem;
     text-align: center;
@@ -53,10 +53,10 @@ main form{
     border: 2px solid black;
     outline: none;
 }
-#user-guess:focus{
+#user-input:focus{
     width: 35vw;
 }
-#user-guess::placeholder{
+#user-input::placeholder{
     text-align: center;
 }
 #btn-check{

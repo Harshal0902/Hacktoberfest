@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess The Number</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -17,14 +18,14 @@
         <main class="game-sec">
             <h1 class="title">Guess The Number</h1>
             <p class="intro-text">
-                The computer has chosen a number between 1 to 100, now you have to guess that number.
+                The computer has chosen a number between 1 to 20, now you have to guess that number.
             </p>
             <form onsubmit="return false">
-                <input type="number" name="" id="user-guess" placeholder="Enter guessed number">
+                <input type="number" name="" id="user-input" placeholder="Enter guessed number" required min="1" max="20">
                 <button type="submit" id="btn-check">Check</button>
             </form>
             <div class="prev-guess">
-                
+                Previous Guessed Numbers : 
             </div>
             <div class="show-output">
                 
