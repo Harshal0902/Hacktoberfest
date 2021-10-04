@@ -1,0 +1,210 @@
+.search input {
+  margin-left: 16px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 13px;
+  width: 120%;
+  padding: 2.5%;
+  height: 5%;
+}
+.icon {
+  position: absolute;
+  top: 20px;
+  color: black;
+  width: auto;
+  height: auto;
+  margin-left: 128%;
+}
+
+.text {
+  font-size: x-large;
+  font-family: "Reem Kufi", sans-serif;
+  padding: 4%;
+}
+.city {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 15%;
+  margin-top: 10%;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  /* or 39px */
+  color: #69004c;
+
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.temp {
+  position: relative;
+  width: auto;
+  height: auto;
+  top: 25%;
+  font-style: normal;
+  font-size: 60px;
+  font-weight: bolder;
+  margin-top: 5%;
+  color: #ffffff;
+
+  -webkit-text-stroke: 1px #000000;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.desc {
+  font-family: "Dancing Script", cursive;
+  position: relative;
+  width: 30%;
+  height: auto;
+  left: 115px;
+  top: 36%;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #69004c;
+}
+
+.date {
+  position: absolute;
+  left: 20%;
+  top: 52%;
+  width: 100%;
+  height: auto;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 27px;
+
+  line-height: 30px;
+  text-align: center;
+  margin-left: 0%;
+  color: #69004c;
+
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.feelslike {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 12px;
+  top: 63%;
+
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #69004c;
+}
+.feeltemp {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 11px;
+  top: 67%;
+
+  font-style: italic;
+  font-size: 30px;
+  line-height: 29px;
+  color: #ffffff;
+  font-weight: bolder;
+
+  -webkit-text-stroke: 1px #000000;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.pressure {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 12px;
+  top: 74%;
+
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #69004c;
+}
+.feelpressure {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 11px;
+  top: 78%;
+
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  -webkit-text-stroke: 1px #000000;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.left {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 12px;
+  top: 84%;
+
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #69004c;
+}
+.right {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 45%;
+  top: 84%;
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #69004c;
+}
+
+.bold {
+  font-weight: bold;
+}
+.nodata {
+  text-transform: capitalize;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  width: auto;
+  height: auto;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 27px;
+  line-height: 30px;
+  text-align: center;
+  color: #69004c;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.copyright {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 3%;
+  top: 117%;
+  font-size: 10px;
+}

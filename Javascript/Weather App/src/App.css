@@ -1,0 +1,13 @@
+.App {
+  position: relative;
+  height: 640px;
+  width: 360px;
+}
+.icon {
+  position: absolute;
+  top: 20px;
+  color: black;
+  width: auto;
+  height: auto;
+  margin-left: 128%;
+}
