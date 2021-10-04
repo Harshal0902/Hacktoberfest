@@ -1,0 +1,29 @@
+/* External Digital Style FontFace */
+@font-face {
+    font-family: DS-DIGII;
+    src: url("./DS-DIGII.TTF");
+}
+
+body{
+    background-color: #EEE;
+}
+
+h4{
+    font-family: DS-DIGII;
+    font-size: 60pt;
+    text-align: center;
+    color: #00ADB5;
+}
+
+h1,p{
+    text-align: center;
+}
+
+.displayArea{
+    background-color: #393E46;
+    text-align: center;
+}
+
+.heading{
+    margin-bottom: 50px;
+}
