@@ -2,4 +2,4 @@
 <hr>
 <br>
 This file uses the basic of countours to find a specific shade in this case <br>
-![THE YELLOW BASE COLOR OF THE SKECHES](airpen.jpg)
+<img src="/Airpen.jpg" width="100%" />
