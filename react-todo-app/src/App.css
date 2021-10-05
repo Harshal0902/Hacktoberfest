@@ -1,0 +1,12 @@
+.container {
+  width: 90%;
+  max-width: 560px;
+  margin: 5vh auto;
+}
+
+.title {
+  text-align: center;
+  color: var(--accent);
+  margin-bottom: 32px;
+  letter-spacing: 3px;
+}

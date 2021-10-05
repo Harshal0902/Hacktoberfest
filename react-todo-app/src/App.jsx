@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css";
 
 const App = () => {
   const [todos, setTodos] = useState([
@@ -7,7 +8,8 @@ const App = () => {
     { id: 3, text: "todo 3", completed: true },
   ]);
   return (
-    <div>
+    <div className="container">
+      <h1 className="title">Todo List</h1>
       {todos.map((todo) => (
         <p key={todo.id}>
           {todo.text} <input type="checkbox" checked={todo.completed} />
