@@ -22,6 +22,7 @@ Open source is changing the world – one contribution at a time. Hacktoberfest 
 - Background Color Change App
 - Image Slider
 - Digital Clock
+- FizzBuzz
 - Analog Clock
 - Loan Calculator
 - Guess my number
