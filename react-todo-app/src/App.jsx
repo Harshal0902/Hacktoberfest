@@ -11,9 +11,11 @@ const App = () => {
   return (
     <div className="container">
       <h1 className="title">Todo List</h1>
-      {todos.map((todo) => (
-        <Todo todo={todo} />
-      ))}
+      <ul>
+        {todos.map((todo) => (
+          <Todo key={todo.id} todo={todo} />
+        ))}
+      </ul>
     </div>
   );
 };
