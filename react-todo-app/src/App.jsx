@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Todo } from "./components/Todo";
 import "./App.css";
 
 const App = () => {
@@ -11,9 +12,7 @@ const App = () => {
     <div className="container">
       <h1 className="title">Todo List</h1>
       {todos.map((todo) => (
-        <p key={todo.id}>
-          {todo.text} <input type="checkbox" checked={todo.completed} />
-        </p>
+        <Todo todo={todo} />
       ))}
     </div>
   );
