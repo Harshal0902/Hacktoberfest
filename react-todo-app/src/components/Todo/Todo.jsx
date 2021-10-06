@@ -13,6 +13,7 @@ const Todo = ({ todo, handleCheck }) => {
         />
         {todo.text}
       </label>
+      <button className={styles.delete}>delete</button>
     </li>
   );
 };
