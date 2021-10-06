@@ -1,4 +1,8 @@
-.list-item {
+.listitem {
   margin-bottom: 12px;
   list-style-type: none;
+  font-size: 18px;
+}
+.checkbox {
+  margin-right: 12px;
 }
