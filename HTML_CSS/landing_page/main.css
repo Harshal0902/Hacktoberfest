@@ -1,0 +1,81 @@
+HTML{
+}
+
+#home { 
+    width:100%vw; height:100%vh; 
+    background:#F00 url(./images/background.jpg) center center no-repeat;
+    background-attachment: rea;
+    background-size:100% auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+h1 {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    background-color: none;
+    margin-bottom: -10px;
+
+}
+.tagline {
+    font-size: 20pt;
+    text-align: left;
+
+}
+#name {
+    margin-top: 15%;
+}
+#tourPackage,#home,#contact {
+    width: 100%;
+    height: 100%;
+}
+#prog-lang{  
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:50px;
+    width:100px;
+    bottom: 0;
+    background:red;
+}
+#fram-lib{
+    height:50px;
+    top: 0;
+    width:100px;
+    background:blue;
+    margin:0px auto;
+
+}
+#design{
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:50px;
+    width:100px;
+    background:green;
+}
+
+#home,#tourPackage, #contact{
+    height: 100vh;
+    width: 100vw;
+    padding: 30px;
+}
+#tourPackage{
+    background-color: #f5f5f5;
+    padding: 30px;
+    margin: 0;
+}
+#home {
+
+}
+#tourDIV{
+    margin: 15px;
+    padding: 20px;
+    padding-top: 50px;
+}
+#contactDIV{
+    margin: 15px;
+    padding: 20px;
+    padding-top: 50px;
+}
