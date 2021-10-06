@@ -19,6 +19,11 @@ const App = () => {
     };
     setTodos(newTodos);
   };
+  // Handle delete button
+  const handleDelete = (id) => {
+    const newTodos = todos.filter((todo) => todo.id !== id);
+    setTodos(newTodos);
+  };
   // RENDER UI
   return (
     <div className="container">
@@ -29,6 +34,7 @@ const App = () => {
             key={todo.id}
             todo={todo}
             handleCheck={() => handleCheck(todo.id)}
+            handleDelete={() => handleDelete(todo.id)}
           />
         ))}
       </ul>

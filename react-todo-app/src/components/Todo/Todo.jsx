@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Todo.module.css";
 
-const Todo = ({ todo, handleCheck }) => {
+const Todo = ({ todo, handleCheck, handleDelete }) => {
   return (
     <li className={styles.listitem}>
       <label>
@@ -13,7 +13,11 @@ const Todo = ({ todo, handleCheck }) => {
         />
         {todo.text}
       </label>
-      {todo.completed && <button className={styles.delete}>delete</button>}
+      {todo.completed && (
+        <button onClick={handleDelete} className={styles.delete}>
+          delete
+        </button>
+      )}
     </li>
   );
 };
