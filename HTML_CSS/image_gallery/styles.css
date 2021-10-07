@@ -1,0 +1,34 @@
+body{
+    background-color: #FFE8E8;
+}
+
+.container{
+    text-align: center;
+    padding: 5% 8%;
+}
+p{
+    margin-bottom: 30px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  text-align: center;
+  
+}
+
+div.gallery:hover {
+  border: 1.5px solid #FF9292;
+  color:#FF9292;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 8rem;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
