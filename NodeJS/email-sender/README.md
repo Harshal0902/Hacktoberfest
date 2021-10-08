@@ -9,7 +9,7 @@ For Security Purposes, We can nnot provide email. This NodeJS app is a tested ap
 
 **Note: If You're Using GMAIL, you will need to turn ON `LESS SECURE APPS` under settings.
 Like this
-<img src="/googleSettings.png" alt="Allow Access to Less Secure App" style="height: 100px; width:100px;"/>
+<img src="./googleSettings.png" alt="Allow Access to Less Secure App" style="height: 100px; width:100px;"/>
 
 #### How To Use It.
 1. Fork into Repository & clone it using `git clone https://github.com/Harshal0902/Hacktoberfest.git`
