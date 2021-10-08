@@ -5,10 +5,12 @@
 
 ## Important:
 
-For Security Purposes, We can nnot provide email. This NodeJS app is a tested app. In order to use it you need to REPLACE ``` user: 'yourMail@gmail.com', pass: 'YourREALPassword' ```  in <strong>app.js</strong> file.
+For Security Purposes, We can nnot provide email. This NodeJS app is a tested app. In order to use it you need to REPLACE 
+``` user: 'yourMail@gmail.com', pass: 'YourREALPassword' ```  
+in **app.js** file.
 
-**Note: If You're Using GMAIL, you will need to turn ON `LESS SECURE APPS` under settings.
-Like this
+**Note: If You're using GMAIL, you will need to turn ON `LESS SECURE APPS` under settings. Google do not consider NodeJS module to be 'safe', so allow access to `LESS SECURE APPS` Like this ⬇️
+<br>
 <img src="./googleSettings.png" alt="Allow Access to Less Secure App" style="height: 400px; width:600px;"/>
 
 #### How To Use It.
