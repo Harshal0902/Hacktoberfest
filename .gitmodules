@@ -1,3 +1,6 @@
 [submodule "Django/Django/Weather_flask"]
 	path = Django/Django/Weather_flask
 	url = https://github.com/shouhardik/weather_app_flask.git
+[submodule "Django/Django/WeatherApp/Weather_flask"]
+	path = Django/Django/WeatherApp/Weather_flask
+	url = https://github.com/shouhardik/weather_app_flask
