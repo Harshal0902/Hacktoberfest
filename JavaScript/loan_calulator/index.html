@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator | Javascript</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Loan Calculator</h1>
+    <p>Made with Love using Javascript</p>
+    <div class="card">
+    <form name="form">
+        <input type="text" name="loanAmount" placeholder="Enter Loan Amount">
+        <input type="text" name="duration" placeholder="Tenure (in months)">
+        <input type="text" name="rate" placeholder="Enter Rate of Interest">
+        <input type="text" name="display" class="display" placeholder="Get Your Result Here">
+        <button onclick="calculate()" type="button">Calculate</button>
+    </form></div>
+    <h3 class="totalPayment"></h3>
+    <h3 class="interest"></h3>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>

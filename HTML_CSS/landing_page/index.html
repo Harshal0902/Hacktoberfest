@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hacktoberfest 2021</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="./scripts/scroll.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <!--Google Fonts CDN-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet">
+
+  <!--Bootsrap Icon CDN-->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <section id="home">
+    <div id="homeDIV">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active link-info" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-secondary" href="#tourPackage">Tour Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-secondary" href="#contact">Contact Us</a>
+        </li>
+      </ul>
+      <div id="name">
+        <h1 class="display-1 text-white">Travel Now...</h1>
+        <p class="text-light">we are committed to providing a professional service to our customers, ensuring they
+          benefit from our experience, unique style and energy. A highly visible, independent and progressive travel
+          agency, we aim to make a difference in everything we do.
+
+        </p>
+        <a type="button" class="btn btn-outline-info btn-lg" href="#">Book Now</a>
+      </div>
+    </div>
+  </section>
+  <section id="tourPackage">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link link-secondary" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active link-info" href="#tourPackage">Tour Packages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-secondary" href="#contact">Contact</a>
+      </li>
+    </ul>
+    <h2 class="display-4">Packages</h2>
+    <div id="tourDIV">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card" style="width: 12rem;">
+              <img class="card-img-top" src="./images/london.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">London</h5>
+                <a href="#" class="btn btn-info">Let's Go</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 12rem;">
+              <img class="card-img-top" src="./images/newYork.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">New York</h5>
+                <a href="#" class="btn btn-info">Hurry!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 13rem;">
+              <img class="card-img-top" src="./images/paris.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Paris</h5>
+                <a href="#" class="btn btn-info">Book Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="bg-dark">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link link-secondary" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  link-secondary" href="#tourPackage">Tour Packages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active link-info" href="#contact">Contact Us</a>
+      </li>
+    </ul>
+    <h2 class="display-4 text-white">Contact Details</h2>
+    <div id="contactDIV"></div>
+    <h4 class="text-info">Hacktoberfest Travels</h4>
+    <p class="text-muted">Explore the world with us!</p>
+    <p class="text-light" style="text-align: left;">Having clearly stated and promoted values within our organisation,
+      by which all team members are held accountable, is the key to our business. These values form the framework within
+      which all major decisions are made and they provide a strong benchmark and sounding board against which any
+      potential disagreement or conflict may ultimately be measured and resolved. The resulting consistency of action
+      and the equitable nature by which decisions are made, means that there is a greater likelihood of the development
+      of a harmonious, high performance team.</p>
+
+    <p class="text-muted"><i>headquarters: Somewhere on Earth 🌎</i></p>
+    <br>
+    <a style="color: #3b5998;" href="#" role="button"><i class="fa fa-linkedin fa-3x"></i></a>
+
+    <a style="color: #55acee;" href="#" role="button"><i class="fa fa-twitter fa-3x"></i></a>
+
+    <a style="color: whitesmoke;" href="#" role="button"><i class="fa fa-facebook fa-3x"></i></a>
+  </section>
+
+  <!--Smooth Scroll CDN-->
+  <script
+    src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  <!--Bootstrap jQuery CDN-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+
+</html>
