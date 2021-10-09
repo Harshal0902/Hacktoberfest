@@ -7,6 +7,7 @@ const Form = ({ addTodo }) => {
     e.preventDefault();
     if (todo !== "") {
       addTodo(todo);
+      setTodo("");
     }
   };
   return (

@@ -6,11 +6,7 @@ import "./App.css";
 
 const App = () => {
   // Todos state hooks
-  const [todos, setTodos] = useState([
-    { id: 1, text: "todo 1", completed: true },
-    { id: 2, text: "todo 2", completed: false },
-    { id: 3, text: "todo 3", completed: true },
-  ]);
+  const [todos, setTodos] = useState([]);
   // Handle completed checkbox
   const handleCheck = (id) => {
     const todoIndex = todos.findIndex((todo) => todo.id === id);
@@ -26,6 +22,7 @@ const App = () => {
     const newTodos = todos.filter((todo) => todo.id !== id);
     setTodos(newTodos);
   };
+  // Handle add todo
   const addTodo = (todo) => {
     const newTodo = {
       id: uuidv4(),
@@ -34,20 +31,25 @@ const App = () => {
     };
     setTodos([...todos, newTodo]);
   };
+
   // RENDER UI
   return (
     <div className="container">
       <h1 className="title">Todo List</h1>
       <Form addTodo={addTodo} />
       <ul>
-        {todos.map((todo) => (
-          <Todo
-            key={todo.id}
-            todo={todo}
-            handleCheck={() => handleCheck(todo.id)}
-            handleDelete={() => handleDelete(todo.id)}
-          />
-        ))}
+        {todos.length > 0 ? (
+          todos.map((todo) => (
+            <Todo
+              key={todo.id}
+              todo={todo}
+              handleCheck={() => handleCheck(todo.id)}
+              handleDelete={() => handleDelete(todo.id)}
+            />
+          ))
+        ) : (
+          <p>No todos found. Please add something :)</p>
+        )}
       </ul>
     </div>
   );
