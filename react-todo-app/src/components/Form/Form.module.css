@@ -1,0 +1,22 @@
+.form {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.textInput {
+  width: calc(100% - 70px);
+  padding: 15px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--accent);
+  font-size: 17px;
+  color: var(--text);
+}
+.submitBtn {
+  width: 70px;
+  padding: 15px;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid var(--accent);
+  background-color: #bae8e8;
+  font-size: 17px;
+}

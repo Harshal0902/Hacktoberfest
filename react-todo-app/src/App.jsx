@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Todo } from "./components/Todo";
+import { Form } from "./components/Form";
 import "./App.css";
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
   return (
     <div className="container">
       <h1 className="title">Todo List</h1>
+      <Form />
       <ul>
         {todos.map((todo) => (
           <Todo
