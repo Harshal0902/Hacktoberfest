@@ -7,6 +7,7 @@ import "./App.css";
 const App = () => {
   // Todos state hooks
   const [todos, setTodos] = useState([]);
+  // Load todos form localStorage on app start
   useEffect(() => {
     const todos = localStorage.getItem("todos");
     if (todos) {
