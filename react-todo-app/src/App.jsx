@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 import { Todo } from "./components/Todo";
 import { Form } from "./components/Form";
 import "./App.css";
@@ -25,11 +26,19 @@ const App = () => {
     const newTodos = todos.filter((todo) => todo.id !== id);
     setTodos(newTodos);
   };
+  const addTodo = (todo) => {
+    const newTodo = {
+      id: uuidv4(),
+      text: todo,
+      completed: false,
+    };
+    setTodos([...todos, newTodo]);
+  };
   // RENDER UI
   return (
     <div className="container">
       <h1 className="title">Todo List</h1>
-      <Form />
+      <Form addTodo={addTodo} />
       <ul>
         {todos.map((todo) => (
           <Todo
