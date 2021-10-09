@@ -20,3 +20,8 @@
   background-color: #bae8e8;
   font-size: 17px;
 }
+.error {
+  font-size: 14px;
+  color: crimson;
+  margin-top: 6px;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { Todo } from "./components/Todo";
 import { Form } from "./components/Form";
@@ -7,6 +7,18 @@ import "./App.css";
 const App = () => {
   // Todos state hooks
   const [todos, setTodos] = useState([]);
+  useEffect(() => {
+    const todos = localStorage.getItem("todos");
+    if (todos) {
+      const todosJSON = JSON.parse(todos);
+      setTodos(todosJSON);
+    }
+  }, []);
+  // Save todos to localStorage on state update
+  useEffect(() => {
+    const stringTodos = JSON.stringify(todos);
+    localStorage.setItem("todos", stringTodos);
+  }, [todos]);
   // Handle completed checkbox
   const handleCheck = (id) => {
     const todoIndex = todos.findIndex((todo) => todo.id === id);
@@ -31,7 +43,6 @@ const App = () => {
     };
     setTodos([...todos, newTodo]);
   };
-
   // RENDER UI
   return (
     <div className="container">
