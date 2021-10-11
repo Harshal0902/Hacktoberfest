@@ -1,0 +1,17 @@
+:root {
+  --bground: #272343;
+  --accent: #bae8e8;
+  --text: #fafafa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bground);
+  color: var(--text);
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}

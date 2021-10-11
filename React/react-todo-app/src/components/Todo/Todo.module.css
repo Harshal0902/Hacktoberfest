@@ -1,0 +1,27 @@
+.listitem {
+  list-style-type: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--accent);
+  padding: 15px;
+}
+.listitem:last-of-type {
+  border-bottom: none;
+}
+.checkbox {
+  margin-right: 12px;
+}
+.delete {
+  background: crimson;
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  padding: 3px 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+.delete:hover {
+  transform: scale(1.1);
+}
