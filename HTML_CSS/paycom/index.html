@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR-2wGcguxz2si1u-btgftmMVQZqJzH2SI3Lw&usqp=CAU"><h1 id="title">PayCom-Sign up</h1>
+            <h3 id="title">A better way to digital payment</h3>
+          <form method="POST" action="pay/payment.html"  onsubmit="return clickme()"> 
+        <div class="form-group">
+            <label id="label-user" for="User">Username</label><br>
+            <input type="text" id="User" name="User" class="form-control" placeholder="Enter username..." required>
+        </div>
+        <br>
+        <div class="form-group">
+            <label id="label-email" for="email">Email</label><br>
+            <input type="text" id="email"  name="email" class="form-control" placeholder="Enter email..." required>
+        </div>
+        <br>
+        <div class="form-group">
+        <label  for="pa">Password</label><br>
+        <input type="password" id="pass" name="pass" class="from-control" placeholder="Enter password..." required>
+    </div>
+    <br>
+    <div class="form-group">
+       <center> <label id="pa" for="cpass">Confirm Password</label><br>
+        <input type="password" id="cpass" name="cpass" class="from-control" placeholder="Re-enter password..." required></center>
+    </div>
+    <br>
+    <div class="form-group">
+       <center><button type="submit" class="sub" > Submit</button></div></center>
+    </div>
+</center>
+</form>
+<script src="index.js">
+    
+</script>
+</body>
+</html>

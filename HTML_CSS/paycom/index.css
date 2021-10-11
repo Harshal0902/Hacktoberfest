@@ -1,0 +1,26 @@
+body{
+    background-color: lightblue ;
+}
+#title{
+    color:navy;
+}
+.form-group{
+    font-size: 22px;
+}
+#email,#User,#pass,#cpass{
+    width:40%;
+    display:inline-block;
+    border-radius: 5px;
+   margin:7px 0px;
+    padding:10px 18px;
+    border-color: black;
+}
+.sub{
+    border-radius:5px;
+    cursor:pointer;
+    padding:10px 18px;
+    width:50%;
+    margin: 7px 0px;;
+    color:white;
+    background-color: navy;
+}
