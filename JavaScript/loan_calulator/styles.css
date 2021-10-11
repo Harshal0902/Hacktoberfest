@@ -60,6 +60,7 @@ a.button {
 a.button:hover {
   background-color: #4095c6;
 }
+
 .res {
   display: flex;
   justify-content: center;
