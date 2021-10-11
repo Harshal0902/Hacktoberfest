@@ -20,8 +20,8 @@ function calculate(){
     document.querySelector(".display").value=emi + " Per Month";
 
     let totalPayment = emi*tenure;
-    document.querySelector(".totalPayment").innerHTML="Your Total Payment is "+(totalPayment)+" ."
-    document.querySelector(".interest").innerHTML="Your Total Interest Amount is "+(totalPayment-principalAmount)+" ."
+    document.querySelector(".totalPayment").value= "Your Total Payment is "+(totalPayment)+" ."
+    document.querySelector(".interest").value= "Your Total Interest Amount is "+(totalPayment-principalAmount)+" ."
 
     
 }
